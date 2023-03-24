@@ -4,7 +4,7 @@
 // let mynums=[3,4,5,6,]
 // firstelement(mynums)
 
-//
+
 // function firstelement(arr){
 //     console.log(arr[6])
 // }
@@ -12,14 +12,37 @@
 // firstelement(mynums)
 
 
-let students = ['"Broke array"'];
 
-let values = [1,];
+// let students = ['"empty array"',];
+//
+// let values = [1,];
+//
+//
+// console.log(students);
 
-//accessing items in array
 
-console.log(students);
 
-console.log(students[0]); //beginning item has index or position 0
+// function firstelement(arr) {
+//     console.log(arr[6])
+//
+//
+// }
+// let mynums=[3,4,5,6,]
+// firstelement(mynums)
+//
+//
+//
+//
+// function reverseelement(arr){
+//     for(let i = arr.length-1; i>=0; i--){
+//         console.log(arr[i])
+//     }
+//
+// }
+//
+// reverseelement(mynums)
 
-console.log(students[1]); //index 1 means 1 item away from the beginning, or 2nd
+
+
+
+
