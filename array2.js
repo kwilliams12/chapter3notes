@@ -1,9 +1,15 @@
-let nums = [5, 4, 3, 2, 1]
+let vals = [1, 2, 3, 4, 5]
 
-let newNums = nums
+let newVals = []
 
-newNums[0] = 12
+for (let i=2; i<vals.length; i++){
 
-console.log('nums: ' + nums)
+    newVals.push(vals[i]);
 
-console.log('newNums: ' + newNums)
+}
+
+newVals[0]=7
+
+console.log('vals: ' + vals)
+
+console.log('newVals: ' + newVals)
