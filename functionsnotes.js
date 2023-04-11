@@ -1,79 +1,79 @@
-//Functions Notes
-
-//1. define the function
-
+// Functions Notes
+//
+// 1. define the function
+//
 // function sayHello(){
-
+//
 // console.log('Hello');
-
+//
 // }
-
-//2. call or use the function
-
+//
+// 2. call or use the function
+//
 // sayHello();
-
+//
 // sayHello();
-
+//
 // sayHello();
-
+//
 // sayHello();
-
+//
 // sayHello();
-
-//define
-
+//
+// define
+//
 // function printMax(){
-
+//
 // let x = 6;
-
+//
 // let y = 29;
-
+//
 // if (x>y){
-
+//
 // console.log(`the larger number is ${x}`);
-
+//
 // } else {
-
+//
 // console.log(`the larger number is ${y}`);
-
+//
 // }
-
+//
 // }
-
-//call
-
+//
+// call
+//
 // printMax();
-
-//define
-
+//
+// define
+//
 // function printMax(x, y){
-
+//
 // if (x>y){
-
+//
 // console.log(`the larger number is ${x}`);
-
+//
 // } else {
-
+//
 // console.log(`the larger number is ${y}`);
-
+//
 // }
-
+//
 // }
-
-//call
-
+//
+// call
+//
 // printMax(16, 9);
-
+//
 // printMax(2, 75);
-
+//
 // printMax(2, 2);
-
-function sum(num1, num2){
-
-    console.log(`${num1}/${num2}=${num1/num2}`);
-
-}
-
-sum(10, 2);
-
-sum(2, 4);
+//
+// function sum(num1, num2){
+//
+//     console.log(`${num1}/${num2}=${num1/num2}`);
+//
+// }
+//
+// sum(10, 2);
+//
+// sum(2, 4);

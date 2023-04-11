@@ -15,7 +15,8 @@
 //     if (n <= 0) {
 //         console.log('invalid');
 //     } else {
-//         let newarray = []
+//         let newarray = []-
+
 //         for (let i = 1; i <= n; i++) {
 //             newarray.push(i)
 //         }
