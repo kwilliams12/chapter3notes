@@ -90,6 +90,9 @@ let dog = {
 }
 
 
+
+
+
 console.log(dog)
 
 
@@ -103,3 +106,43 @@ let cat ={
 }
 console.log(cat)
 
+let dog ={
+ dogname: 'sponge',
+ breed:   'white dog',
+ age:3
+ size: 'small',
+ barks: true
+}
+console.log(dog)
+
+
+let dog ={
+dogname: 'billy',
+ breed: 'white dog',
+age:3
+size: 'medium',
+barks: true
+}
+console.log(dog)
+
+
+let dog ={
+dogname: 'juan hernandez',
+ breed: 'white dog',
+ age:3
+ size: 'medium',
+ barks: 'true'
+}
+console.log(dog)
+
+
+
+let cat ={
+    catName: 'awesome man',
+    breed: 'Bio-color cat',
+    age:1,
+    size: 'medium',
+    meow: true
+
+}
+console.log(cat)
