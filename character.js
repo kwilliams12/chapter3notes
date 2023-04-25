@@ -2,13 +2,13 @@ const readLine = require('readline-sync')
 
 let diceRolled = []
 
-let character = {
+let character1 = {
 
 //empty to start
 
 }
 
-createChar(diceRolled)
+createChar(character1, diceRolled)
 
 function rolld6(){
 
@@ -52,7 +52,7 @@ function rollStat(list){
 
 }
 
-function createChar(list){
+function createChar(character, list){
 
     character.name = readLine.question("Enter Character Name: ");
 
@@ -76,11 +76,19 @@ function createChar(list){
 
     character.wisdom= rollStat(diceRolled);
 
-    console.log('Rolling CHA')
+    console.log('Rolling PWR')
 
     character.power= rollStat(diceRolled);
 
-    console.log(character)
+    console.log('Rolling SPD')
+
+    character.speed= rollStat(diceRolled);
+
+    console.log('Rolling WPN')
+
+    character.weaponmastery= rollStat(diceRolled);
+
+    DisplayChar(character)
 
 }
 
@@ -95,18 +103,22 @@ function DisplayChar(char){
 
 
 
-console.log(`Name: ${char.name}`);
+    console.log(`Name: ${char.name}`);
 
-console.log(`STR: ${char.strength}`);
+    console.log(`STR: ${char.strength}`);
 
-console.log(`DEX: ${char.dexterity}`);
+    console.log(`DEX: ${char.dexterity}`);
 
-console.log(`CON: ${char.constitution}`);
+    console.log(`CON: ${char.constitution}`);
 
-console.log(`INT: ${char.intelligence}`);
+    console.log(`INT: ${char.intelligence}`);
 
-console.log(`WIS: ${char.wisdom}`);
+    console.log(`WIS: ${char.wisdom}`);
 
-console.log(`CHA: ${char.power}`);
+    console.log(`PWR: ${char.power}`);
+
+    console.log(`SPD: ${char.speed}`);
+
+    console.log(`WPN: ${char.weaponmastery}`);
 
 }
