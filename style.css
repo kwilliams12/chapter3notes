@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #a0aec0;
+}
+
+label {
+    display: block;
+    line-height: 1.25rem;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fabc2a;
+}
+
+input[type="text"], textarea, select{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    border: 1px solid #fffc0c;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    color: #0cffda;
+}
+fieldset{
+    border: 1px solid #fffc0c;
+    border-radius: 6px;
+    width: fit-content;
+    margin-bottom: 16px;
+    padding: 12px;
+}
+
+
+fieldset legend{
+    font-size: 14px;
+    color: #0cffda;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+}
+
+input[type="checkbox"] ~ label, input[type="radio"] ~ label {
+    display: inline;
+}
+
+section{
+    margin-bottom: 16px;
+}
+
+section header{
+    margin-bottom: 8px;
+}
+
+.row {
+    display: flex;
+    gap: 16px;
+}
+
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.content{
+    box-shadow: 0 1px 3px 0 rgb(236, 226, 208), 0 1px 2px -1px rgb(255, 207, 156);
+    background: #2271b3;
+    padding: 20px;
+    border-radius: 12px;
+    width: 500px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
