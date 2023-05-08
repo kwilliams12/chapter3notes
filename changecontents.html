@@ -25,7 +25,7 @@
             </div>
         </div>
         <button name="clear">Clear</button>
-        <p></p>
+        <p class="hidden"> </p>
     </div>
 </div>
 <script>
@@ -36,14 +36,23 @@
     firstname.addEventListener('change' , function (e){
         let first = firstname.value;
         let last = lastname.value;
-        let FullName = `Hello ${first} ${last}!`;
-        full.textContent = FullName;
-    });
-    clearButton.addEventListener('click' , function (e){
+        let FullName = `${first} ${last}!`;
+        if (FullName.length>1)}
+    {
+
+        full.classList.remove("hidden")
+    else
+    }
+        full.classList.add("hidden")
+    {
+    full.textContent = 'Hello ${fullname}!';
+    );
+    clearButton.addEventListener('click' , function (e) {
         firstname.vaule = "";
         lastname.vaule = "";
-        full.textContent ="";
+        full.textContent = "";
     })
+
 </script>
 </body>
 </html>
